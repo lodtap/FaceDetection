@@ -96,7 +96,6 @@ public class CameraInterface {
 				mCamera.setPreviewDisplay(holder);
 				mCamera.startPreview();//开启预览
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
